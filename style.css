@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+section {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media queries para diseño receptivo */
+@media (max-width: 960px) {
+  .container {
+      width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+      width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+      width: 300px;
+  }
+}
+
+header {
+  text-align: center;
+}
+
+.titles h1 {
+  margin-bottom: 10px;
+}
+
+.titles h2 {
+  margin-top: 0;
+}
+
+.list-inline {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.list-inline a {
+  text-decoration: none;
+  color: #333;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
